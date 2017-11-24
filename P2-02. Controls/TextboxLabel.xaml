@@ -1,0 +1,24 @@
+﻿<Window x:Class="P2_02.Controls.TextboxLabel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:P2_02.Controls"
+        mc:Ignorable="d"
+        Title="TextboxLabel" Height="95.96" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Label Name="lblUsername" Content="Username :" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Right"></Label>
+        <TextBox Name="tbxUsername" Text="MyText" Height="20" Margin="0,2,10,0"  Width="180" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="0"/>
+        <Label Name="lblPassword" Content="Password :" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right"></Label>
+        <PasswordBox Name="pwbPassword" Height="20" Margin="0,2,10,0"  Width="180" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="1"/>
+    </Grid>
+    
+</Window>

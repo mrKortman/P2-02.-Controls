@@ -1,0 +1,49 @@
+﻿<Window x:Class="P2_02.Controls.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:P2_02.Controls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="621.212" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="200"/>
+        </Grid.RowDefinitions>
+
+        <Button Name="btnA" Grid.Column="0" Grid.Row="0" Click="btnClick3" Background="Transparent">
+            <Image Name="imgA" Stretch="Fill"/>
+        </Button>
+        <Button Name="btnB" Grid.Column="0" Grid.Row="1" Click="btnClick3" Background="Transparent">
+            <Image Name="imgB" Stretch="Fill"/>
+        </Button>
+        <Button Name="btnC" Grid.Column="0" Grid.Row="2" Click="btnClick3" Background="Transparent">
+            <Image Name="imgC" Stretch="Fill"/>
+        </Button>
+        <Button Name="btnD" Grid.Column="1" Grid.Row="0" Click="btnClick3" Background="Transparent">
+            <Image Name="imgD" Stretch="Fill"/>
+        </Button>
+        <Button Name="btnE" Grid.Column="1" Grid.Row="1" Click="btnClick3" Background="Transparent">
+            <Image Name="imgE" Stretch="Fill"/>
+        </Button>
+        <Button Name="btnF" Grid.Column="1" Grid.Row="2" Click="btnClick3" Background="Transparent">
+            <Image Name="imgF" Stretch="Fill"/>
+        </Button>
+        <Button Name="btnG" Grid.Column="2" Grid.Row="0" Click="btnClick3" Background="Transparent">
+            <Image Name="imgG" Stretch="Fill"/>
+        </Button>
+        <Button Name="btnH" Grid.Column="2" Grid.Row="1" Click="btnClick3" Background="Transparent">
+            <Image Name="imgH" Stretch="Fill"/>
+        </Button>
+        <Button Name="btnI" Grid.Column="2" Grid.Row="2" Click="btnClick3" Background="Transparent">
+            <Image Name="imgI" Stretch="Fill"/>
+        </Button>
+    </Grid>
+</Window>

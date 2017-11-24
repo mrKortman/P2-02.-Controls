@@ -41,6 +41,7 @@ namespace P2_02.Controls
                 image.Source = new BitmapImage(new Uri(@"\assets\immage_cross.png", UriKind.Relative));
             }
 
+
             imageSwitch = !imageSwitch;
             ((Button)sender).IsEnabled = false;
         }
